@@ -1,0 +1,57 @@
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; 
+}
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.devices {
+	margin: 10px;
+}
+.basicBtn {
+	margin: 10px;
+}
+h1 {
+	font-family: sans-serif;
+}
+h2 {
+	font-family: sans-serif;
+}
+h3 {
+	font-family: sans-serif;
+}
+#root {
+    margin: auto;
+	text-align: left;
+	width: 50%;
+	height: 1000px;
+	background: #edeef0;
+}
+#OOP {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#navig {
+	text-align: center;
+	box-shadow: 0 0 0 3px #d7e2f7;
+}
