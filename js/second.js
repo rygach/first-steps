@@ -154,7 +154,7 @@ function dividers2(a,b) {
 
 let modalMath = document.getElementById('modalMath');
 let myBtn2 = document.getElementById('myBtn2');
-let close2 = document.getElementsByClassName('close')[1];
+let close2 = document.getElementsByClassName('button-close')[1];
 
 // вычисляет площадь (знак плюсика перед document - преобразование строки в число)
 termValue1.onclick = function() {

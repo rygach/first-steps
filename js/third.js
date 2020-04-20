@@ -16,7 +16,7 @@
 
 let modalAnal = document.getElementById('modalAnal');
 let myBtn3 = document.getElementById('myBtn3');
-let close3 = document.getElementsByClassName('close')[2];
+let close3 = document.getElementsByClassName('button-close')[2];
 
 
 myBtn3.onclick = function() {
@@ -48,7 +48,6 @@ class Result {
 let textArea = document.getElementById('textArea');
 let actArea = document.getElementById('actArea');
 let resultArea = document.getElementById('resultArea');
-let selectFields = document.getElementById('selectFields');
 let inputText = [];
 let considerSymbols = [];
 let result = new Result(0, 0, 0, 0);

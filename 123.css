@@ -1,3 +1,6 @@
+body {
+	font-family: sans-serif;
+}
 .modal {
 	display: none;
 	position: fixed;
@@ -13,45 +16,84 @@
 .modal-content {
 	background-color: #fefefe;
 	margin: 15% auto;
-	padding: 20px;
-	border: 1px solid #888;
+	padding: 30px;
+	border: 1px #888 solid;
 	width: 80%; 
 }
-.close {
-	color: #aaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-	cursor: pointer;
-}
-.devices {
-	margin: 10px;
-}
-.basicBtn {
-	margin: 10px;
-}
-h1 {
-	font-family: sans-serif;
-}
-h2 {
-	font-family: sans-serif;
-}
-h3 {
-	font-family: sans-serif;
-}
+
+
 #root {
     margin: auto;
 	text-align: left;
-	width: 50%;
-	height: 1000px;
-	background: #edeef0;
-}
-#OOP {
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
+	width: 70%;
 }
 #navig {
 	text-align: center;
-	box-shadow: 0 0 0 3px #d7e2f7;
+	border: 10px #85babe solid;
+	background: #edf3ff;
+}
+.content-main-units {
+	text-align: center;
+	background: #edf3ff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+img {
+	border-radius: 5px;
+	border-width: 3px;
+	margin: 20px;
+}
+button {
+	margin:0px; 
+	margin-top:0px;
+	padding:0px;
+	color: #000000;
+	background-color:  #ffffff;
+	border: 0px;
+	cursor: pointer;
+
+	border-radius: 5px;
+}
+button:hover {
+	background-color: #edf3ff;
+}
+.button-close {
+	float: right;
+	width: 25px;
+	height: 25px;
+	border: 2px #85babe solid;
+	font-size: 20px;
+}
+.main-display-buttons {
+	margin: 10px;
+	padding: 8px;
+	font-size: 20px;
+}
+.main-display-buttons:hover {
+	margin: 10px;
+	padding: 8px;
+}
+.button-modal {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 8px;
+	border: 2px #85babe solid;
+	font-size: 15px;
+}
+.modal-inputs {
+	width: 50%;
+	height: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 2px #85babe solid;
+}
+.modal-units {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
