@@ -75,3 +75,5 @@ class Employer extends Man {
 let employer = new Employer('Grut', '22', '123', 'tree', '31.02.1995', '$2500');
 
 //employer.outing();
+
+1
