@@ -118,6 +118,7 @@ post-body-info
 	border: 1px #e7e8ec solid;
 }
 .post-header {
+	margin-top: 50px;
 	height: 50px;
 	padding-right: 20px;
 	padding-left: 20px;
