@@ -13,3 +13,4 @@ close4.onclick = function () {
 	modalDMB.style.display = 'none'; 
 }
 
+
